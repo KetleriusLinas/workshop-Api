@@ -24,6 +24,10 @@ header {
     text-align: center;
 }
 
+footer {
+    text-align: center;
+}
+
 h1 {
     font-family: Horror;
     color: rgb(98, 3, 3);
@@ -85,6 +89,11 @@ tbody tr:hover {
     font-size: 1.5rem;
 }
 
-.show {
+#loader.show {
     display: block;
+}
+/* sepicifisity pakiso koja, loader yra id , show tik klase - id auksciau nei klase todel nukonkuruoja clase ir rodo tik id. */
+
+.hide {
+    display: none;
 }
